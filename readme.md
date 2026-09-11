@@ -9,7 +9,7 @@ A collection of foundational programming projects and practice scripts written i
 An object-oriented terminal game implementing custom state logic, dynamic grid scaling, theme selection, and configurable game loop delays.
 
 ### Gameplay Demo
-![C++ Memory Matching Game Gameplay](gameplay.png)
+![C++ Memory Matching Game Gameplay](Picture1.jpg)
 
 ### Core Features
 * **Dynamic Grid Sizing:** Supports Easy (4x4), Moderate (6x6), and Difficult (8x8) matrix configurations.
