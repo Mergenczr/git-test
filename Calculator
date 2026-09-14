@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class MyCalculator {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String txt = scanner.nextLine().toLowerCase().trim();
+        try {
+            int operator = txt.indexOf("+");
+        String firstPart = txt.substring(0, operator).trim();
+        double a = Double.parseDouble(firstPart);
+        String secondPart = txt.substring(operator + 1).trim();
+        double b = Double.parseDouble(secondPart);
+        double result = a + b;
+        System.out.println("=" + result);
+
+    } catch (Exception e ) {
+            System.out.print("Error :" +e.getClass().getSimpleName());
+        }
+}
+
+
+}
