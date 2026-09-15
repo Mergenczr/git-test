@@ -30,8 +30,7 @@ A Java-based arithmetic calculator application demonstrating basic OOP principle
 
 A collection of introductory scripts, syntax exercises, and environment test builds.
 
-* **`practice/Hello.cpp`** - Basic C++ environment test script.
-* **`practice/Hello.java`** - Basic Java compilation test script.
+
 
 ---
 
